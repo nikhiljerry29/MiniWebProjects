@@ -1,9 +1,9 @@
 let playerOneDiceValue = Math.floor(Math.random() * 6) + 1;
-let playerOneImagePath = "/images/dice" + playerOneDiceValue + ".png";
+let playerOneImagePath = "images/dice" + playerOneDiceValue + ".png";
 document.querySelector("div img.img1").setAttribute("src", playerOneImagePath)
 
 let playerTwoDiceValue = Math.floor(Math.random() * 6) + 1;
-let playerTwoImagePath = "/images/dice" + playerTwoDiceValue + ".png";
+let playerTwoImagePath = "images/dice" + playerTwoDiceValue + ".png";
 document.querySelector("div img.img2").setAttribute("src", playerTwoImagePath)
 
 let resultHeading = document.querySelector("h1")
