@@ -5,11 +5,11 @@ body {
 /*Title Section*/
 
 #title {
-	background-color: #ff4c68;
+	background-color: #ff577f;
 	color: white;
 }
 
-.container {
+.container-fluid {
 	padding: 3% 5%;
 }
 
@@ -73,7 +73,7 @@ p {
 /*features*/
 
 #features {
-	background-color: white;
+	background-color: #eeeeee;
 	padding: 7% 15%;
 }
 
@@ -84,19 +84,19 @@ p {
 }
 
 .icon {
-	color :#ef8172;
+	color :#ff884b;
 	margin-bottom: 1rem;
 }
 
 .icon:hover {
-	color : #ff4c68;
+	color : #ff577f;
 	margin-bottom: 1rem;
 }
 
 /*testimonials*/
 
 #testimonials {
-	background-color: #ef8172;
+	background-color: #ff884b;
 	text-align: center;
 	color: #ffffff;
 }
@@ -116,7 +116,7 @@ p {
 /*Press*/
 
 #press {
-	background-color: #ef8172;
+	background-color: #ff884b;
 	text-align: center;
 	padding-bottom: 3%;
 }
@@ -136,4 +136,40 @@ p {
 
 .pricing-column {
 	padding: 3% 2%
+}
+
+/*call to action*/
+
+#cta {
+	background-color: #ff577f;
+	text-align: center;
+	color: white;
+	padding-top: 5%;
+
+}
+
+#footer  {
+	text-align: center;
+	background-color: white;
+}
+
+.social-icon {
+	margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+	#title {
+		text-align: center;
+	}
+
+	.title-image {
+		position: static;
+		transform: rotate(0);
+	}
+}
+
+a {
+	text-decoration: none;
+	color: grey;
 }
